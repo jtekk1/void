@@ -14,3 +14,9 @@ source ./install/guis.sh
 source ./install/apps.sh
 source ./install/extras.sh
 source ./install/flatpaks.sh
+source ./install/apps/ble.sh
+source ./install/apps/brew.sh
+
+echo "DONE!!!"
+sleep 1
+reboot

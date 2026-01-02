@@ -7,8 +7,8 @@ xbps-install -Ayu \
   chrony \
   curl \
   elogind \
-  ghi \
   git \
+  github-cli \
   grub-i386-efi \
   grub-x86_64-efi \
   linux \
