@@ -1,0 +1,112 @@
+
+● Here's a comprehensive list of all GUI/graphical applications on deepspace:
+
+  Desktop Environment
+
+  - Mango WM - Wayland window manager
+  - Cutacha - Status bar
+  - Wofi - Application launcher
+  - Wlogout - Logout menu
+  - Mako - Notification daemon
+  - Swaylock-effects - Screen locker
+  - Swayosd - Volume/brightness OSD
+  - Polkit-GNOME - Authentication agent
+
+  Browsers
+
+  - Chromium (with Widevine + 12 webapp shortcuts: Audible, Gemini AI, Claude AI, ChatGPT, HBO Max, Instagram, Zoho Mail, Netflix, Teams, Upwork, YouTube, Nerd Fonts)
+
+  Communication
+
+  - Discord (Wayland wrapper)
+  - Slack
+  - Zoom
+
+  Media & Creative
+
+  - OBS Studio (with wlrobs, pipewire-audio-capture, vaapi, vkcapture)
+  - Spotify
+  - MPV - Media player
+  - Shotcut - Video editor
+  - GIMP - Image editor
+  - Inkscape - Vector graphics
+  - Pinta - Paint app
+  - IMV - Image viewer
+  - Blanket - Ambient sounds
+  - Wl-screenrec - Screen recorder
+
+  Productivity
+
+  - Obsidian - Notes/knowledge base
+  - Typora - Markdown editor
+  - Zathura - PDF viewer
+  - Bitwarden Desktop - Password manager
+
+  Code Editors & IDEs
+
+  - Cursor (AppImage v2.0.77)
+  - Zed Editor
+  - JetBrains Toolbox
+  - Neovim (via nixvim)
+  - Antigravity (Project IDX)
+
+  Gaming
+
+  - Steam
+  - Lutris
+  - Heroic (Epic/GOG)
+  - UMU Launcher
+  - Gamescope - Gaming compositor
+  - ProtonPlus
+  - ProtonUp-Qt
+  - MangoHud - Performance overlay
+  - VkBasalt - Post-processing
+
+  GPU Control
+
+  - LACT - AMD GPU control
+  - CoreCtrl - GPU settings GUI
+  - GPU Viewer
+  - Radeontop - GPU monitor
+
+  File Management
+
+  - Nautilus - File manager
+  - Bazaar - App store
+
+  Terminal Emulators
+
+  - Kitty
+  - Foot
+
+  Virtualization
+
+  - Virt-Manager
+
+  Theme & Appearance
+
+  - NWG-Look - GTK settings
+  - Qt5ct - Qt settings
+  - Yaru Theme
+  - Candy Icons
+  - Papirus Icons
+  - Adwaita-Qt
+  - GNOME Backgrounds
+
+  System Utilities
+
+  - Wlsunset - Blue light filter
+  - Wlr-randr - Display config
+  - XWayland-Satellite
+
+  Optional (via specializations)
+
+  - OpenRGB - RGB lighting control
+  - TeamViewer - Remote desktop
+
+  Services with GUI
+
+  - Flatpak - App container platform
+
+  Total: ~70+ GUI applications
+

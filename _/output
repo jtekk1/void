@@ -1,0 +1,20 @@
+  - blueberry
+  - podman-compose, podman-tui, dive, skopeo, swtpm, virt-manager, distrobox, boxbuddy, lazydocker, virt-viewer, virtiofsd, xorriso
+
+  - claude-code, gemini-cli, crush, open-interpreter, jetbrains-toolbox, zed-editor, Cursor
+
+  Shell Utilities (Home-Manager)
+
+  TUI Applications
+
+  - dysk, superfile, md-tui
+
+  Wayland Tools
+
+  - swaylock-effects, uwsm, wl-screenrec, sway-audio-idle-inhibit
+
+  Custom Scripts
+
+  - close-all-windows, dpms-control, launch-steam, list-my-themes, open-terminal, screenshot-area, setup-fido2-ssh, ssh-bitwarden, update-cursor, unified-wallpaper, wofi-power-menu, wofi-clipboard-menu, wofi-window-switcher, idle-inhibit-toggle
+
+  Total: ~120+ CLI/TUI/shell tools and custom scripts
