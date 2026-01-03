@@ -33,12 +33,7 @@ source ./install/thinkpad.sh
 
 echo "Setting up seatd and dbus!"
 sleep 2
-usermod -aG _seatd $REAL_USER
-ln -s /etc/sv/seatd /var/service/
-ln -s /etc/sv/dbus /var/service/
-ln -s /etc/sv/elogind /var/service/
-ln -s /etc/sv/bluetoothd /var/service/
-ln -s /etc/sv/swayosd-libinput-backend /var/service/
+source ./install/services.sh
 
 sudo -u "$REAL_USER" ./install/apps/ble.sh
 sudo -u "$REAL_USER" ./install/apps/brew.sh
