@@ -1,8 +1,5 @@
 #!/bin/bash
 
-xbps-install -Ayu \
-  flatpak
-
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y it.mijorus.gearlever
 flatpak install -y com.bitwarden.desktop

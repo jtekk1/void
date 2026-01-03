@@ -11,6 +11,7 @@ xbps-install -Ayu \
   plocate \
   ripgrep \
   rsync \
+  wget \
   zip \
   zoxide
 
