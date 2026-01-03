@@ -15,6 +15,7 @@ xbps-install -Ayu \
   linux-firmware \
   linux-mainline \
   linux-mainline-headers \
+  NetworkManager \
   pam_rundir \
   seatd \
   tea \
@@ -38,6 +39,7 @@ xbps-pkgdb -m manual \
   linux-firmware \
   linux-mainline \
   linux-mainline-headers \
+  NetworkManager \
   pam_rundir \
   seatd \
   tea \
