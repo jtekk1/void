@@ -7,4 +7,11 @@ xbps-install -Ayu \
   wev \
   xcursorgen
 
+xbps-pkgdb -m manual \
+  flatpak \
+  udiskie \
+  watchexec \
+  wev \
+  xcursorgen
+
 echo "Tools installed ..."

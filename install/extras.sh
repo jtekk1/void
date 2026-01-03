@@ -8,4 +8,10 @@ xbps-install -Ayu \
   cmatrix \
   pipes.c
 
+xbps-pkgdb -m manual \
+  asciiquarium \
+  asciiquarium \
+  cmatrix \
+  pipes.c
+
 echo "Extras are now installed..."

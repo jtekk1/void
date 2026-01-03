@@ -16,4 +16,20 @@ xbps-install -Ayu \
   tldr \
   wiremix
 
+xbps-pkgdb -m manual \
+  bluetui \
+  btop \
+  dialog \
+  dust \
+  fastfetch \
+  gdu \
+  glow \
+  impala \
+  lazygit \
+  luarocks \
+  neovim \
+  spotify-tui \
+  tldr \
+  wiremix
+
 echo "TUIs are now installed..."

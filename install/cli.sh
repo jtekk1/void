@@ -15,4 +15,19 @@ xbps-install -Ayu \
   zip \
   zoxide
 
+xbps-pkgdb -m manual \
+  atuin \
+  bat \
+  eza \
+  fd \
+  fzf \
+  jq \
+  lsof \
+  plocate \
+  ripgrep \
+  rsync \
+  wget \
+  zip \
+  zoxide
+
 echo "Cli Tools are now installed... "
