@@ -28,6 +28,9 @@ source ./install/guis.sh
 source ./install/apps.sh
 source ./install/extras.sh
 
+echo "Setting up Intel"
+source ./install/intel.sh
+
 echo "Setting up Thinkpad"
 source ./install/thinkpad.sh
 
