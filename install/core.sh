@@ -1,41 +1,20 @@
 #!/bin/bash
 
-xbps-install -Ayu \
-  base-devel \
-  base-system \
-  brightnessctl \
-  chrony \
-  curl \
-  elogind \
-  git \
-  github-cli \
-  grub-i386-efi \
-  grub-x86_64-efi \
-  linux \
-  linux-firmware \
-  linux-mainline \
-  linux-mainline-headers \
-  NetworkManager \
-  pam_rundir \
-  seatd \
-  tea \
-  tmux \
-  upower \
-  xdg-user-dirs \
-  xtools
+set +e
 
-xbps-pkgdb -m manual \
+if [ $EUID -ne 0 ]; then
+  echo "Please run as root!"
+  exit
+fi
+
+xbps-install -y \
   base-devel \
   base-system \
   brightnessctl \
   chrony \
   curl \
-  elogind \
   git \
   github-cli \
-  grub-i386-efi \
-  grub-x86_64-efi \
-  linux \
   linux-firmware \
   linux-mainline \
   linux-mainline-headers \

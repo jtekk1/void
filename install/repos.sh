@@ -1,13 +1,13 @@
 #!/bin/bash
 
-xbps-install -Syu
+set +e
 
-xbps-install -SAyu \
-  void-repo-multilib \
-  void-repo-multilib-nonfree \
-  void-repo-nonfree
+if [ $EUID -ne 0 ]; then
+  echo "Please run as root!"
+  exit
+fi
 
-xbps-pkgdb -m manual \
+xbps-install -y \
   void-repo-multilib \
   void-repo-multilib-nonfree \
   void-repo-nonfree

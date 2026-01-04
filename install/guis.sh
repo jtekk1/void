@@ -1,22 +1,18 @@
 #!/bin/bash
 
-xbps-install -Ayu \
-  blanket \
-  gimp \
-  ImageMagick \
-  inkscape \
-  nwg-look \
-  obs \
-  satty \
-  swappy
+set +e
 
-xbps-pkgdb -m manual \
+if [ $EUID -ne 0 ]; then
+  echo "Please run as root!"
+  exit
+fi
+
+xbps-install -y \
   blanket \
   gimp \
   ImageMagick \
   inkscape \
   nwg-look \
-  obs \
   satty \
   swappy
 

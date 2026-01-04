@@ -1,21 +1,13 @@
 #!/bin/bash
 
-xbps-install -Ayu \
-  atuin \
-  bat \
-  eza \
-  fd \
-  fzf \
-  jq \
-  lsof \
-  plocate \
-  ripgrep \
-  rsync \
-  wget \
-  zip \
-  zoxide
+set +e
 
-xbps-pkgdb -m manual \
+if [ $EUID -ne 0 ]; then
+  echo "Please run as root!"
+  exit
+fi
+
+xbps-install -y \
   atuin \
   bat \
   eza \

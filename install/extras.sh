@@ -2,13 +2,12 @@
 
 set +e
 
-xbps-install -Ayu \
-  asciiquarium \
-  asciiquarium \
-  cmatrix \
-  pipes.c
+if [ $EUID -ne 0 ]; then
+  echo "Please run as root!"
+  exit
+fi
 
-xbps-pkgdb -m manual \
+xbps-install -y \
   asciiquarium \
   asciiquarium \
   cmatrix \

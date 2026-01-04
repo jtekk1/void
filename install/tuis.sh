@@ -1,22 +1,13 @@
-#!/usr/bin
+#!/bin/bash
 
-xbps-install -Ayu \
-  bluetui \
-  btop \
-  dialog \
-  dust \
-  fastfetch \
-  gdu \
-  glow \
-  impala \
-  lazygit \
-  luarocks \
-  neovim \
-  spotify-tui \
-  tldr \
-  wiremix
+set +e
 
-xbps-pkgdb -m manual \
+if [ $EUID -ne 0 ]; then
+  echo "Please run as root!"
+  exit
+fi
+
+xbps-install -y \
   bluetui \
   btop \
   dialog \

@@ -24,8 +24,8 @@ source ./install/tuis.sh
 source ./install/tools.sh
 source ./install/fonts.sh
 source ./install/desktop-env.sh
+source ./install/mangowc.sh
 source ./install/guis.sh
-source ./install/apps.sh
 source ./install/extras.sh
 
 echo "Setting up Intel"
