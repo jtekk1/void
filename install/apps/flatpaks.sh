@@ -1,10 +1,18 @@
 #!/bin/bash
 
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install -y it.mijorus.gearlever
-flatpak install -y com.bitwarden.desktop
-flatpak install -y com.discordapp.Discord
-flatpak install -y com.spotify.Client
-flatpak install -y dev.zed.Zed
-flatpak install -y md.obsidian.Obsidian
-flatpak install -y org.dupot.easyflatpak
+flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+flatpak install --user -y \
+  it.mijorus.gearlever \
+  com.bitwarden.desktop \
+  com.discordapp.Discord \
+  com.spotify.Client \
+  dev.zed.Zed \
+  md.obsidian.Obsidian \
+  org.dupot.easyflatpak \
+  com.rafaelmardojai.Blanket \
+  org.gimp.GIMP \
+  io.github.nate_xyz.Conjure \
+  org.inkscape.Inkscape \
+  com.obsproject.Studio \
+  fr.handbrake.ghb

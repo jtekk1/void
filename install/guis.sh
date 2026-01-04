@@ -8,10 +8,7 @@ if [ $EUID -ne 0 ]; then
 fi
 
 xbps-install -y \
-  blanket \
-  gimp \
   ImageMagick \
-  inkscape \
   nwg-look \
   satty \
   swappy

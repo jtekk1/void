@@ -12,6 +12,9 @@ xbps-install -y \
   mesa-vulkan-radeon \
   amdvlk \
   mesa-vaapi \
-  mesa-vdpau
+  mesa-vdpau \
+  ROCm-SMI \
+  LACT \
+  xf86-video-amdgpu
 
 echo "AMD Drivers Installed!!!"

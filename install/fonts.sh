@@ -17,6 +17,7 @@ xbps-install -y \
   nerd-fonts-otf \
   nerd-fonts-symbols-ttf \
   nerd-fonts-ttf \
+  noto-fonts-ttf \
   terminus-font
 
 echo "Fonts installed ... "

@@ -21,6 +21,7 @@ xbps-install -y \
   NetworkManager \
   pam_rundir \
   seatd \
+  tailscale \
   tea \
   tmux \
   upower \
