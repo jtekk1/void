@@ -23,27 +23,15 @@ source ./install/cli.sh
 source ./install/tuis.sh
 source ./install/tools.sh
 source ./install/fonts.sh
-source ./install/desktop-env.sh
-source ./install/mangowc.sh
 source ./install/guis.sh
 source ./install/extras.sh
-
-echo "Setting up Intel"
-source ./install/intel.sh
-
-echo "Setting up Thinkpad"
-source ./install/thinkpad.sh
 
 echo "Setting up seatd and dbus!"
 sleep 2
 source ./install/services.sh
 
-sudo -u "$REAL_USER" ./install/apps/ble.sh
-sudo -u "$REAL_USER" ./install/apps/brew.sh
-sudo -u "$REAL_USER" ./install/apps/helium.sh
-sudo -u "$REAL_USER" ./install/apps/flatpaks.sh
+xbps-reconfigure -fa
 
 echo "DONE!!!"
 echo "Welcome to the VOID!"
 sleep 2
-reboot

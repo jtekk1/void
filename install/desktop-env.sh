@@ -32,6 +32,7 @@ xbps-install -y \
   swayidle \
   swaylock \
   SwayOSD \
+  swww \
   wayland-utils \
   wl-clip-persist \
   wl-clipboard \

@@ -7,4 +7,5 @@ flatpak install --user -y \
   net.davidotek.pupgui2 \
   com.github.Matoking.protontricks \
   com.heroicgameslauncher.hgl \
-  net.lutris.Lutris
+  net.lutris.Lutris \
+  com.valvesoftware.Steam
