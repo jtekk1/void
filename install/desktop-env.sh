@@ -29,6 +29,7 @@ xbps-install -y \
   starship \
   stow \
   swaybg \
+  sway-audio-idle-inhibit \
   swayidle \
   swaylock \
   SwayOSD \
