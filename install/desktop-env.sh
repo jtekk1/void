@@ -9,6 +9,7 @@ fi
 
 xbps-install -y \
   blueman \
+  chromium \
   cliphist \
   dumb_runtime_dir \
   flatpak \
