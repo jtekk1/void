@@ -28,7 +28,6 @@ xbps-install -y \
   shotman \
   slurp \
   starship \
-  stow \
   swaybg \
   sway-audio-idle-inhibit \
   swayidle \
@@ -49,6 +48,7 @@ xbps-install -y \
   xdg-desktop-portal \
   xinput \
   xorg-server-xwayland \
-  xrdb
+  xrdb \
+  xstow
 
 echo "Window Manager and Desktop Environment is now set"

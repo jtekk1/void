@@ -7,8 +7,6 @@ if [ $EUID -ne 0 ]; then
   exit
 fi
 
-REAL_USER=${SUDO_USER:-$(whoami)}
-
 echo "Setting up Repos!"
 sleep 2
 source ./install/repos.sh
