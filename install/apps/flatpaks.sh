@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./install/apps/flatpak-lite.sh
+source ./install/apps/flatpaks-lite.sh
 
 flatpak install --user -y \
 	dev.zed.Zed \
