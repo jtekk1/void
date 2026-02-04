@@ -31,7 +31,6 @@ xbps-install -y \
 	swaybg \
 	sway-audio-idle-inhibit \
 	swayidle \
-	swaylock \
 	SwayOSD \
 	swww \
 	wayland-utils \

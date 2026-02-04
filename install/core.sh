@@ -16,7 +16,7 @@ xbps-install -y \
 	elogind \
 	git \
 	github-cli \
-	greeter \
+	greetd \
 	linux-firmware \
 	linux-mainline \
 	linux-mainline-headers \

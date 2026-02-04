@@ -3,14 +3,15 @@
 set +e
 
 if [ $EUID -ne 0 ]; then
-  echo "Please run as root!"
-  exit
+	echo "Please run as root!"
+	exit
 fi
 
 xbps-install -y \
-  udiskie \
-  watchexec \
-  wev \
-  xcursorgen
+	udiskie \
+	vsv \
+	watchexec \
+	wev \
+	xcursorgen
 
 echo "Tools installed ..."

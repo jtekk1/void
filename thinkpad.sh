@@ -39,14 +39,12 @@ sudo xbps-reconfigure -fa
 
 echo "Setting up Apps..."
 sleep 5
-source ./install/apps/ble.sh
-source ./install/apps/superfile.sh
-source ./install/apps/brew.sh
-source ./install/apps/claude-code.sh
-source ./install/apps/helium.sh
-source ./install/apps/flatpak-lite.sh
-
-source ~/dots/stow.sh
+./install/apps/ble.sh
+./install/apps/superfile.sh
+./install/apps/brew.sh
+./install/apps/claude-code.sh
+./install/apps/helium.sh
+./install/apps/flatpak-lite.sh
 ln -s ~/mangowc-config ~/.config/mango
 
 
